@@ -1,0 +1,35 @@
+{
+  "name": "interfaces",
+  "version": "1.0.0",
+  "description": "using interfaces and composition to build powerful applications",
+  "main": "src/index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git repo"
+  },
+  "keywords": [
+    "typescript",
+    "interfaces",
+    "composition",
+    "oop"
+  ],
+  "author": "Mark Maksi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
